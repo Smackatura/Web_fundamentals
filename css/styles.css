@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+* {
+    font-family:Montserrat;
+}
+
+/* Start - Code below for flexbox.html */
+#center-box{
+    width: 760px;
+    height: 330px;
+    background-color: #190080;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#center-item{
+    width: 80px;
+    height:80px;
+    background-color: #f9e4b6;
+}
+/* End */
+
+/* Code below for flexnavbar.html */
+ul{
+    display:flex;
+    background-color: cornflowerblue;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:rgb(250, 250, 250,.1);
+    font-size:larger;
+}
+
+img{
+    width: 70px;
+}

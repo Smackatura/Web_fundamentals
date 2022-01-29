@@ -1,2 +1,2 @@
 # Web_fundamentals
- small projects from bootcamp
+ small coding projects
