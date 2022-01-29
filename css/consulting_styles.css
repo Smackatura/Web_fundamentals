@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    width:922px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#062134;
+}
+a {
+    left:-40px;
+    margin-left:3px;
+}
+.nav{
+    padding-top:20px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav a:hover{
+    color:#265475;
+}
+
+#branding{
+    color:white;
+    margin-left: 20px;
+    font-weight: 300;
+}
+span{
+    font-weight:100;
+    margin-left: 15px;
+    margin-right:-20px;
+    color:#1992de;
+}
+
+ul{
+    display:flex;
+    justify-self:space-between;
+    margin: 0 auto;
+    width: 120%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:small;
+}
+li {
+    list-style-type: none;
+    margin: auto;
+    font-size:18px;
+}
+.home{
+    margin-left:100px;
+}
+.container{
+    background-color:white;
+    padding: 15px;
+    margin: 10px;
+}
+#main-img{
+    width:100%;
+}
+#info-boxes{
+    width: 100%;
+}
+
+.section{
+    margin-top:10px;
+    display:flex;
+    min-height: 240px;
+    justify-content: space-around;
+}
+
+.box1,.box2,.box3{
+    padding: 15px;
+    background-color: #1468a8;
+    color: white;
+    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.box1,.box2{
+    margin-right: 15px;
+}
+
+.icon{
+    width:40px;
+    height:40px;
+    background: radial-gradient(circle, white 57%, #004990 61%);
+    border-radius:50%;
+    border: 1px solid #004990;
+}
+
+button{
+    color:white;
+    width: 110px;
+    height: 35px;
+    border-style: hidden;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(180deg, #4aaeec 50%, #1991dd 50%);
+}
+
+#more-info{
+    display:flex;
+    justify-content:space-between;
+}
+
+#call-to-action{
+    
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#call-to-action div{
+    width: 31%;
+    display: flex;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    font-size:10px;
+    background-color: white;
+    color: #062134;
+}
+#call-to-action a {
+    color: #1468a8;
+    margin-top:15px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.sky {
+    width:31%;
+}
+.sky h1{
+    margin: auto;
+    font-size:large;
+}
+
+.goals{
+    margin-top:55px;
+    font-size:10px;
+}
+.testimonial {
+    margin: 15px 0px;
+}
+.testimonial h1{
+    padding-bottom: 20px;
+}
+.testimonial p{
+    background-color:#daedff;
+    font-size: medium;
+    font-style:italic;
+    padding: 25px;
+    margin-bottom:15px;
+    border-radius:2px;
+}
+
+footer {
+    background-color:#daedff;
+    width: 912px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+footer ul{
+    width: 40%;
+}
+footer a{
+    color:#1991dc;
+    font-family: 'Roboto', sans-serif;
+}
+footer a:hover{
+    color:#b3d7f4;
+}
