@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/reg_styles.css">
+    </head>
+    <body>
+        <div>
+            
+            <h1>My Registration Form</h1>
+            <table>
+                <tr>
+                    <td><label for="first-name">First Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">PW Confirm</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Birthday</label></td>
+                    <td><input id='bday'type="date"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="identity">
+                            <input type="radio">
+                            <label for="male">Male</label>
+                            <input type="radio">
+                            <label for="female">Female</label>
+                            <input type="radio">
+                            <label for="other">Other</label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <p>A short description about yourself:</p>
+            <textarea name="description"></textarea>
+            <form action="">
+                <label>Favorite Language</label>
+                <select name="language" id="JS">
+                    <option value="javascript">Javascript</option>
+                    <option value="python">Python</option>
+                    <option value="cSharp">C#</option>
+                </select>
+            </form>
+            <input type="submit">
+            <p><a href="/index.html">Back to main</a></p>
+        </div>
+    </body>
+</html>
